@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomCell.h"
+
 
 @protocol BaseTableViewProtocol <UITableViewDelegate,UITableViewDataSource>
 

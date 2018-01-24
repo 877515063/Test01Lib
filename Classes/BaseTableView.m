@@ -33,9 +33,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    CustomCell *cell= [tableView dequeueReusableCellWithIdentifier:@"iden"];
+    UITableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:@"iden"];
     cell.textLabel.text = self.datas[indexPath.row];
-    return (CustomCell *)cell;
+    return cell;
 }
 
 - (void)refreshData:(NSMutableArray *)mutableArray {
