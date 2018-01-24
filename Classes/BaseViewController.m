@@ -18,7 +18,7 @@
     [super viewDidLoad];
 }
 
-- (id<BaseTableViewProtocol>)getTableView {
+- (id)getTableView {
     return nil;
 }
 

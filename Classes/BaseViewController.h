@@ -11,6 +11,6 @@
 
 @interface BaseViewController : UIViewController
 
-- (id<BaseTableViewProtocol>)getTableView;
+- (id)getTableView;
 
 @end
